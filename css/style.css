@@ -17,36 +17,46 @@ header {
 }
 
 .head-container {
-    width: 60%;
+    min-width: 60%;
     min-height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* debug */
-    background-color: orange;
+    background-color: rgb(226, 163, 45);
+    border: 2px dashed black;
 
 }
 
 .logo-head {
+    min-width: 20%;
     padding-left: 20px;
- 
+
 
 }
 
 .navigazione-header {
     display: flex;
+    width: 60%;
+    border-right: 2px dashed black;
+    border-left: 2px dashed black;
     
 }
 
 
 .link-head {
     display: flex;
+    width: 100%;
     
 }
 
 ul li{
     list-style: none;
-    padding: 15px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    
 
 }
 
@@ -55,7 +65,8 @@ a {
 }
 
 .login-head {
-    padding-right: 20px;
+    min-width: 20%;
+    padding-left: 100px;
     
 
 }
@@ -75,6 +86,7 @@ a {
     background-color: palevioletred;
     min-height: 300px;
     width: 50%;
+    border: 2px dashed black;
 
 }
 
@@ -94,6 +106,7 @@ a {
     min-height: 400px;
     /* debug */
     background-color: blue;
+    border: 2px dashed black;
     
 }
 
@@ -102,6 +115,7 @@ a {
     min-height: 400px;
     /* debug */
     background-color: palevioletred;
+    border: 2px dashed black;
    
 }
 
@@ -120,6 +134,7 @@ a {
     min-height: 400px;
     /* debug */
     background-color: palevioletred;
+    border: 2px dashed black;
 
 }
 
@@ -128,6 +143,7 @@ a {
     min-height: 400px;
     /* debug */
     background-color: blue;
+    border: 2px dashed black;
 
 }
 
@@ -145,6 +161,7 @@ a {
     min-height: 400px;
     /* debug */
     background-color: blue;
+    border: 2px dashed black;
  }
 
  .coach-description {
@@ -152,6 +169,7 @@ a {
     min-height: 400px;
     /* debug */
     background-color: palevioletred;
+    border: 2px dashed black;
 
  }
 
@@ -171,6 +189,7 @@ a {
     width: 70%;
     /* debug */
     background-color: green;
+    border: 2px dashed black;
     
  }
 
@@ -202,12 +221,17 @@ a {
     
  }
 
- .small-foot {
+ .big-section {
+    border: 2px dashed black;
+ }
+
+ .small-section {
     width:  20%;
     min-height: 400px;
     /* debug */
     background-color:mediumaquamarine;
-    border: 1px solid black;
+    border: 2px dashed white;
+    
 
  }
 
@@ -254,13 +278,20 @@ a {
     background-color: aquamarine; 
  }
 
+ .sign {
+    border: 2px dashed white;
+    background-color: pink;
+ }
+
 
  .logo-footer {
-    padding-left: 5px;
+    padding: 5px;
+
 
  }
 
  .bottone-footer {
-    padding-right: 5px;
+    padding: 5px;
+    
 
  }
