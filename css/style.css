@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* header */
 header {
     height: 70px;
     display: flex;
@@ -17,7 +18,7 @@ header {
 
 .head-container {
     width: 60%;
-    height: 40px;
+    min-height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,20 +28,25 @@ header {
 }
 
 .logo-head {
-    width: 20%;
     padding-left: 20px;
  
 
 }
 
+.navigazione-header {
+    display: flex;
+    
+}
+
+
 .link-head {
     display: flex;
-    flex-grow: 1;
+    
 }
 
 ul li{
     list-style: none;
-    padding: 5px;
+    padding: 15px;
 
 }
 
@@ -49,11 +55,12 @@ a {
 }
 
 .login-head {
-    width: 20%;
-    padding-left: 100px;
+    padding-right: 20px;
+    
 
 }
 
+/* jumbo section */
 .jumbo-container {
     display: flex;
     justify-content: center;
@@ -71,3 +78,189 @@ a {
 
 }
 
+/* study group section */
+.study-section {
+    background-color: white;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.img-study {
+    width: 40%;
+    min-height: 400px;
+    /* debug */
+    background-color: blue;
+    
+}
+
+.study-description {
+    width: 30%;
+    min-height: 400px;
+    /* debug */
+    background-color: palevioletred;
+   
+}
+
+/* chillin section */
+.chillin-section {
+    background-color: grey;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chillin-description {
+    width: 30%;
+    min-height: 400px;
+    /* debug */
+    background-color: palevioletred;
+
+}
+
+.img-chillin {
+    width: 40%;
+    min-height: 400px;
+    /* debug */
+    background-color: blue;
+
+}
+
+/* coach section */
+.coach-section {
+    background-color: white;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .img-coach {
+    width: 40%;
+    min-height: 400px;
+    /* debug */
+    background-color: blue;
+ }
+
+ .coach-description {
+    width: 30%;
+    min-height: 400px;
+    /* debug */
+    background-color: palevioletred;
+
+ }
+
+ /* audio video section */
+ .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    /* debug */
+    background-color: lightgrey;
+
+ }
+
+ .video-layout {
+    min-height: 550px;
+    width: 70%;
+    /* debug */
+    background-color: green;
+    
+ }
+
+ /* footer section */
+
+ .footer-part {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: black;
+    
+ }
+
+ .specifiche-container {
+    width: 70%;
+    min-height: 400px;
+    display: flex;
+
+ }
+
+ .social {
+    width: 30%;
+    min-height: 400px;
+    /* debug */
+    background-color: pink;
+    
+ }
+
+ .small-foot {
+    width:  20%;
+    min-height: 400px;
+    /* debug */
+    background-color:mediumaquamarine;
+    border: 1px solid black;
+
+ }
+
+ .prodotto {
+    
+ }
+
+ .compagnia {
+    
+
+ }
+
+ .risorse {
+    
+ }
+
+ .norme {
+    
+ }
+
+ /* registrazion */
+
+ .registrazione-contain {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    /* debug */
+    background-color: black;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    
+ }
+
+ .registrazione {
+    min-height: 70px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    background-color: aquamarine; 
+ }
+
+
+ .logo-footer {
+    padding-left: 5px;
+
+ }
+
+ .bottone-footer {
+    padding-right: 5px;
+
+ }
