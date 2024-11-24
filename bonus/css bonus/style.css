@@ -6,40 +6,49 @@
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.titolo-secondario {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 100px;
+
+}
+
+.paragrafo {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
 /* header */
 header {
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
-    background-color: aqua;
+    background-color: rgb(66, 136, 241);
 
 }
 
 .head-container {
-    width: 800px;
+    width: 90%;
     height: 40px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    /* debug */
-    background-color: rgb(226, 163, 45);
-    border: 2px dashed black;
+    
 
 }
 
 .logo-head {
     width: 20%;
-    padding-left: 20px;
+    padding-left: 10px;
 
 
 }
 
 .navigazione-header {
     width: 60%;
-    /* debug */
-    border-right: 2px dashed black;
-    border-left: 2px dashed black;
+    
     
 }
 
@@ -47,13 +56,15 @@ header {
 .link-head {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     
     
 }
 
 
 li a {
+    color: white;
+    padding: 15px;
     text-decoration: none;
     
 }
@@ -61,10 +72,18 @@ li a {
 
 .login-head {
     width: 20%;
-    padding-left: 100px;
-    
+    padding: 5px;
+    text-align: center;
     
 
+}
+
+.login-head button {
+    width: 50px;
+    padding: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 9999px;
 }
 
 /* jumbo section */
@@ -72,19 +91,49 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
-    background-color: rgb(22, 22, 97);
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     height: 400px;
 
 }
   
 .jumbo-layout {
-    background-color: palevioletred;
     min-height: 300px;
     width: 50%;
-    border: 2px dashed black;
+    text-align: center;
+    color: white;
 
 }
+.jumbo-layout h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.jumbo-layout p {
+    margin: 40px 0;
+
+}
+
+button span {
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.jumbo-layout button {
+    margin: 0 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 9999px;
+    font-weight: bold;
+}
+
+.browser {
+    color: white;
+    background-color: black;
+}
+
+
+
 
 /* study group section */
 .study-section {
@@ -100,24 +149,29 @@ li a {
 .img-study {
     width: 40%;
     min-height: 400px;
-    /* debug */
-    background-color: blue;
-    border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.img-study img {
+    width: 500px;
     
 }
 
 .study-description {
     width: 30%;
     min-height: 400px;
-    /* debug */
-    background-color: palevioletred;
-    border: 2px dashed black;
+
    
 }
 
+
+
 /* chillin section */
 .chillin-section {
-    background-color: grey;
+    background-color: rgb(228, 221, 221);
     height: 450px;
     display: flex;
     justify-content: center;
@@ -128,19 +182,21 @@ li a {
 .chillin-description {
     width: 30%;
     min-height: 400px;
-    /* debug */
-    background-color: palevioletred;
-    border: 2px dashed black;
 
 }
 
 .img-chillin {
     width: 40%;
     min-height: 400px;
-    /* debug */
-    background-color: blue;
-    border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
+}
+
+.img-chillin img {
+    width: 400px;
 }
 
 /* coach section */
@@ -154,18 +210,19 @@ li a {
 
  .img-coach {
     width: 40%;
-    min-height: 400px;
-    /* debug */
-    background-color: blue;
-    border: 2px dashed black;
+    min-height: 400px
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .img-coach img {
+    width: 500px;
  }
 
  .coach-description {
     width: 30%;
     min-height: 400px;
-    /* debug */
-    background-color: palevioletred;
-    border: 2px dashed black;
 
  }
 
@@ -175,18 +232,45 @@ li a {
     justify-content: center;
     align-items: center;
     height: 600px;
-    /* debug */
-    background-color: lightgrey;
+    background-color: rgb(242, 238, 238);
 
  }
 
  .video-layout {
     min-height: 550px;
     width: 70%;
-    /* debug */
-    background-color: green;
-    border: 2px dashed black;
-    
+    text-align: center;
+ }
+
+ .video-img img {
+    width: 500px;
+ }
+
+ .video-titolo {
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+ }
+
+ .video-layout :nth-child(2) {
+    margin-top: 30px;
+ }
+
+ .video-layout :nth-child(4) {
+    font-size: 20px;
+    margin-bottom: 30px;
+    background-image: url(../img/stars.svg);
+    background-position: center ;
+    background-size: contain;
+
+ }
+
+ .video-layout button {
+    margin: 0 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 9999px;
+    font-weight: bold;
  }
 
  /* footer section */
@@ -207,6 +291,18 @@ li a {
     min-height: 400px;
     display: flex;
 
+ }
+
+ .big-section img {
+    width: 25px;
+    margin-top: 15px;
+    margin-right: 5px;
+ }
+
+ .lingua {
+    font-size: 12px;
+    line-height: 100%;
+    vertical-align: middle;
  }
 
  .social {
