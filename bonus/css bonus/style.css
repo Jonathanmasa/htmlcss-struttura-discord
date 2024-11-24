@@ -1,0 +1,293 @@
+/* default */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* header */
+header {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: aqua;
+
+}
+
+.head-container {
+    width: 800px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* debug */
+    background-color: rgb(226, 163, 45);
+    border: 2px dashed black;
+
+}
+
+.logo-head {
+    width: 20%;
+    padding-left: 20px;
+
+
+}
+
+.navigazione-header {
+    width: 60%;
+    /* debug */
+    border-right: 2px dashed black;
+    border-left: 2px dashed black;
+    
+}
+
+
+.link-head {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+
+li a {
+    text-decoration: none;
+    
+}
+
+
+.login-head {
+    width: 20%;
+    padding-left: 100px;
+    
+    
+
+}
+
+/* jumbo section */
+.jumbo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: rgb(22, 22, 97);
+    height: 400px;
+
+}
+  
+.jumbo-layout {
+    background-color: palevioletred;
+    min-height: 300px;
+    width: 50%;
+    border: 2px dashed black;
+
+}
+
+/* study group section */
+.study-section {
+    background-color: white;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.img-study {
+    width: 40%;
+    min-height: 400px;
+    /* debug */
+    background-color: blue;
+    border: 2px dashed black;
+    
+}
+
+.study-description {
+    width: 30%;
+    min-height: 400px;
+    /* debug */
+    background-color: palevioletred;
+    border: 2px dashed black;
+   
+}
+
+/* chillin section */
+.chillin-section {
+    background-color: grey;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chillin-description {
+    width: 30%;
+    min-height: 400px;
+    /* debug */
+    background-color: palevioletred;
+    border: 2px dashed black;
+
+}
+
+.img-chillin {
+    width: 40%;
+    min-height: 400px;
+    /* debug */
+    background-color: blue;
+    border: 2px dashed black;
+
+}
+
+/* coach section */
+.coach-section {
+    background-color: white;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .img-coach {
+    width: 40%;
+    min-height: 400px;
+    /* debug */
+    background-color: blue;
+    border: 2px dashed black;
+ }
+
+ .coach-description {
+    width: 30%;
+    min-height: 400px;
+    /* debug */
+    background-color: palevioletred;
+    border: 2px dashed black;
+
+ }
+
+ /* audio video section */
+ .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    /* debug */
+    background-color: lightgrey;
+
+ }
+
+ .video-layout {
+    min-height: 550px;
+    width: 70%;
+    /* debug */
+    background-color: green;
+    border: 2px dashed black;
+    
+ }
+
+ /* footer section */
+
+ .footer-part {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: black;
+    
+ }
+
+ .specifiche-container {
+    width: 70%;
+    min-height: 400px;
+    display: flex;
+
+ }
+
+ .social {
+    width: 30%;
+    min-height: 400px;
+    /* debug */
+    background-color: pink;
+    
+ }
+
+ .big-section {
+    border: 2px dashed black;
+ }
+
+ .small-section {
+    width:  20%;
+    min-height: 400px;
+    /* debug */
+    background-color:mediumaquamarine;
+    border: 2px dashed white;
+    
+
+ }
+
+ .prodotto {
+    
+ }
+
+ .compagnia {
+    
+
+ }
+
+ .risorse {
+    
+ }
+
+ .norme {
+    
+ }
+
+ /* registrazion */
+
+ .registrazione-contain {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    /* debug */
+    background-color: black;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    
+ }
+
+ .registrazione {
+    min-height: 70px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    background-color: aquamarine; 
+ }
+
+ .sign {
+    border: 2px dashed white;
+    background-color: pink;
+ }
+
+
+ .logo-footer {
+    padding: 5px;
+
+
+ }
+
+ .bottone-footer {
+    padding: 5px;
+    
+
+ }
