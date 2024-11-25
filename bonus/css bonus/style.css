@@ -25,7 +25,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(66, 136, 241);
+    background-color: rgb(11, 98, 230);
 
 }
 
@@ -72,8 +72,7 @@ li a {
 
 .login-head {
     width: 20%;
-    padding: 5px;
-    text-align: center;
+    text-align: end;
     
 
 }
@@ -93,12 +92,11 @@ li a {
     align-items: center;
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 400px;
+    min-height: 400px;
 
 }
   
 .jumbo-layout {
-    min-height: 300px;
     width: 50%;
     text-align: center;
     color: white;
@@ -138,7 +136,7 @@ button span {
 /* study group section */
 .study-section {
     background-color: white;
-    height: 450px;
+    padding: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,8 +145,7 @@ button span {
 }
 
 .img-study {
-    width: 40%;
-    min-height: 400px;
+    min-width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +158,7 @@ button span {
 }
 
 .study-description {
-    width: 30%;
+    min-width: 30%;
     min-height: 400px;
 
    
@@ -172,7 +169,7 @@ button span {
 /* chillin section */
 .chillin-section {
     background-color: rgb(228, 221, 221);
-    height: 450px;
+    padding: 100px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,14 +177,13 @@ button span {
 }
 
 .chillin-description {
-    width: 30%;
-    min-height: 400px;
+    min-width: 30%;
+    
 
 }
 
 .img-chillin {
-    width: 40%;
-    min-height: 400px;
+    min-width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,15 +198,14 @@ button span {
 /* coach section */
 .coach-section {
     background-color: white;
-    height: 450px;
+    padding: 100px 0;
     display: flex;
     justify-content: center;
     align-items: center;
  }
 
  .img-coach {
-    width: 40%;
-    min-height: 400px
+    min-width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -221,8 +216,7 @@ button span {
  }
 
  .coach-description {
-    width: 30%;
-    min-height: 400px;
+    max-width: 30%;
 
  }
 
@@ -231,14 +225,13 @@ button span {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
     background-color: rgb(242, 238, 238);
+    padding: 80px 0;
 
  }
 
  .video-layout {
-    min-height: 550px;
-    width: 70%;
+    min-width: 70%;
     text-align: center;
  }
 
@@ -271,18 +264,46 @@ button span {
     padding: 10px;
     border-radius: 9999px;
     font-weight: bold;
+    color: white;
+    background-color: rgb(88, 88, 197);
  }
 
  /* footer section */
 
+ .footer-text {
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    margin-left: 35px;
+
+ }
+
+ .footer-text li {
+    margin-top: 10px;
+    font-weight: bold;
+ }
+
+
+ h5 {
+    color: rgb(88, 88, 197);
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+ }
+
+ footer {
+    background-color: rgb(28, 27, 27);
+
+ }
+
  .footer-part {
     width: 100%;
-    height: 450px;
+    padding-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
-    background-color: black;
+    
+    
     
  }
 
@@ -290,6 +311,8 @@ button span {
     width: 70%;
     min-height: 400px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
  }
 
@@ -299,7 +322,15 @@ button span {
     margin-right: 5px;
  }
 
+ .big-section h3 {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgb(88, 88, 197);
+ }
+
  .lingua {
+    color: white;
     font-size: 12px;
     line-height: 100%;
     vertical-align: middle;
@@ -308,41 +339,26 @@ button span {
  .social {
     width: 30%;
     min-height: 400px;
-    /* debug */
-    background-color: pink;
-    
+   
  }
 
- .big-section {
-    border: 2px dashed black;
+ .icon {
+    color: white;
+    margin-top: 15px;
  }
+
+ .icon i {
+    margin-right: 25px;
+ }
+
 
  .small-section {
     width:  20%;
     min-height: 400px;
-    /* debug */
-    background-color:mediumaquamarine;
-    border: 2px dashed white;
     
 
  }
 
- .prodotto {
-    
- }
-
- .compagnia {
-    
-
- }
-
- .risorse {
-    
- }
-
- .norme {
-    
- }
 
  /* registrazion */
 
@@ -352,38 +368,35 @@ button span {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    
-    /* debug */
-    background-color: black;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
-    
+   
  }
 
  .registrazione {
     min-height: 70px;
-    width: 70%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* debug */
-    background-color: aquamarine; 
- }
-
- .sign {
-    border: 2px dashed white;
-    background-color: pink;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  
  }
 
 
- .logo-footer {
+
+ .logo-footer img {
+    width: 90px;
     padding: 5px;
 
 
  }
 
  .bottone-footer {
-    padding: 5px;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 9999px;
+    color: white;
+    background-color:rgb(88, 88, 197);
     
 
  }
